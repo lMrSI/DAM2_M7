@@ -1,4 +1,5 @@
-# VersaConnect
+# Verconnect
+
 
 ### Anthony Sebastian Palenque Arias
 ### Alejandro Gutierrez
@@ -17,7 +18,8 @@
 11. [Bibliografía](#)
 
 ## 1. Resumen
-VersaConnect es una plataforma que ofrece un espacio único para la conexión y el intercambio de intereses. Con apartados distintos para satisfacer las necesidades de interacción y compartir experiencias con otras personas.
+Verconnect
+ es una plataforma que ofrece un espacio único para la conexión y el intercambio de intereses. Con apartados distintos para satisfacer las necesidades de interacción y compartir experiencias con otras personas.
 
 1. Comunidad Gamer: En este apartado, los entusiastas de los videojuegos pueden relacionarse con personas que comparten su pasión. Aquí pueden encontrar compañeros de equipo, competidores y amigos con intereses similares. Los usuarios tienen la posibilidad de organizar partidas, discutir estrategias y mantenerse al tanto de las novedades en la industria de los videojuegos.
 
@@ -25,10 +27,10 @@ VersaConnect es una plataforma que ofrece un espacio único para la conexión y 
 
 3. Actividades Presenciales: Este apartado se centra en la organización de eventos y actividades físicas. Los usuarios pueden planear partidos de fútbol, básquetbol, voleibol y más. Además, tienen la posibilidad de encontrar personas en su área que compartan sus mismos intereses y coordinar encuentros activos y divertidos.
 
-En VersaConnect, la prioridad es la socialización, donde los intereses se convierten en un medio para conectarse con personas reales en un entorno seguro y amigable. La plataforma te brinda la oportunidad de descubrir nuevos círculos sociales y compartir tus pasiones de una manera única.
+En Verconnect, la prioridad es la socialización, donde los intereses se convierten en un medio para conectarse con personas reales en un entorno seguro y amigable. La plataforma te brinda la oportunidad de descubrir nuevos círculos sociales y compartir tus pasiones de una manera única.
 
 ## 2. Introducción
-VersaConnect, la comunidad definitiva para entusiastas de los videojuegos, amantes del cine y la televisión, así como apasionados de los deportes y actividades presenciales. Nuestra plataforma única y multiplataforma está diseñada para brindar la oportunidad de conectarte con personas de todo el mundo que comparten tus pasiones e intereses.
+Verconnect, la comunidad definitiva para entusiastas de los videojuegos, amantes del cine y la televisión, así como apasionados de los deportes y actividades presenciales. Nuestra plataforma única y multiplataforma está diseñada para brindar la oportunidad de conectarte con personas de todo el mundo que comparten tus pasiones e intereses.
 
 ## 3. Plan de trabajo
 
@@ -147,7 +149,7 @@ Para satisfacer estas necesidades, nuestra aplicación debe proporcionar una int
 
 ## 7. Análisis Competitivo (Benchmarking)
 
-En el mercado de aplicaciones de red social y organización de actividades centradas en gamers, entusiastas de películas y deportes, VersaConnect presenta una propuesta única que combina múltiples intereses en un solo lugar. A continuación, encontraremos aplicaciones de competencia directa y las fortalezas y debilidades de VersaConnect en relación con la competencia existente:
+En el mercado de aplicaciones de red social y organización de actividades centradas en gamers, entusiastas de películas y deportes, Verconnect presenta una propuesta única que combina múltiples intereses en un solo lugar. A continuación, encontraremos aplicaciones de competencia directa y las fortalezas y debilidades de Verconnect en relación con la competencia existente:
 
 #### Red Social para Gamers:
 
@@ -164,21 +166,21 @@ En el mercado de aplicaciones de red social y organización de actividades centr
 - Meetup: Permite a los usuarios crear y unirse a grupos locales para organizar actividades, incluyendo eventos deportivos.
 Strava: Una aplicación de seguimiento de actividades físicas que permite a los usuarios realizar un seguimiento de sus carreras, paseos en bicicleta y otros deportes.
 
-#### Puntos Fuertes de VersaConnect:
+#### Puntos Fuertes de Verconnect:
 
-1. Diversidad de Intereses: VersaConnect atiende a una audiencia diversa al combinar tres áreas de interés distintas: gamers, amantes de películas y deportes. Esto amplía su atractivo para una audiencia variada.
+1. Diversidad de Intereses: Verconnect atiende a una audiencia diversa al combinar tres áreas de interés distintas: gamers, amantes de películas y deportes. Esto amplía su atractivo para una audiencia variada.
 
 2. Experiencia de Usuario Amigable: La aplicación se enfoca en proporcionar una experiencia amigable y fácil de usar para usuarios de todos los niveles, incluidos aquellos que no son expertos en tecnología.
 
 3. Registro Simple: No se requiere un registro exhaustivo ni la entrega de datos personales para obtener un presupuesto rápido, lo que lo hace accesible para usuarios casuales.
 
-4. Personalización de Partidas de Obra: VersaConnect permite a los usuarios personalizar las partidas de obra, lo que es útil para adaptar los presupuestos a proyectos específicos.
+4. Personalización de Partidas de Obra: Verconnect permite a los usuarios personalizar las partidas de obra, lo que es útil para adaptar los presupuestos a proyectos específicos.
 
 5. Compartir Actividades: La función de compartir actividades permite a los usuarios planificar eventos y actividades relacionadas con sus intereses.
 
 6. Diseño atractivo: La aplicación presenta un diseño atractivo y agradable que fomenta la interacción y la exploración.
 
-7. Nuestro mayor activo radica en ser mucho más que una sola aplicación. VersaConnect es la convergencia de múltiples mundos, un espacio donde se reúnen todas tus pasiones en un solo lugar. Somos una mezcla única de lo mejor de varias aplicaciones, creando una experiencia completa que abarca una amplia variedad de intereses en un solo destino.
+7. Nuestro mayor activo radica en ser mucho más que una sola aplicación. Verconnect es la convergencia de múltiples mundos, un espacio donde se reúnen todas tus pasiones en un solo lugar. Somos una mezcla única de lo mejor de varias aplicaciones, creando una experiencia completa que abarca una amplia variedad de intereses en un solo destino.
 
     - Red Social para Gamers: Aquí puedes conectarte con jugadores, encontrar compañeros de equipo, compartir estrategias y estar al tanto de las últimas noticias de la industria.
 
@@ -186,11 +188,11 @@ Strava: Una aplicación de seguimiento de actividades físicas que permite a los
 
     - Organización de Eventos Deportivos: Para los amantes del deporte y las actividades al aire libre, puedes organizar eventos y encuentros para jugar al fútbol, baloncesto, voleibol y más.
 
-En resumen, VersaConnect es el centro donde convergen tus intereses, una aplicación completa que te permite explorar, interactuar y disfrutar de todas tus pasiones en un único y conveniente espacio.
+En resumen, Verconnect es el centro donde convergen tus intereses, una aplicación completa que te permite explorar, interactuar y disfrutar de todas tus pasiones en un único y conveniente espacio.
 
-#### Puntos Débiles de VersaConnect:
+#### Puntos Débiles de Verconnect:
 
-1. Concurrencia: Aunque VersaConnect ofrece una combinación única de características, se enfrenta a la competencia de aplicaciones de red social, organización de eventos deportivos y plataformas de seguimiento de películas.
+1. Concurrencia: Aunque Verconnect ofrece una combinación única de características, se enfrenta a la competencia de aplicaciones de red social, organización de eventos deportivos y plataformas de seguimiento de películas.
 
 2. Desarrollo y Mantenimiento: Mantener una aplicación que combina múltiples características y segmentos de usuarios puede requerir un esfuerzo continuo en términos de desarrollo y mantenimiento.
 
