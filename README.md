@@ -13,9 +13,9 @@
 6.  [Elementos mínimos](#6-elementos-mínimos)
 7.  [Análisis de la competencia](#7-análisis-competitivo-benchmarking)
 8.  [Tareas que realizan los usuarios](#8-tareas-realizadas-por-los-usuarios)
-9.  [Diseño conceptual](#)
-10. [Prototipaje](#)
-11. [Bibliografía](#)
+9.  [Diseño conceptual](#9diseño-conceptual)
+10. [Prototipaje](#10-prototipaje)
+11. [Bibliografía](#11-bibliografía)
 
 ## 1. Resumen
 Verconnect
@@ -241,3 +241,10 @@ Explorar Actividades Virtuales:
 Participar en torneos de juegos en línea.
 Organizar visualizaciones virtuales de películas o series con amigos.
 
+## 9.Diseño conceptual
+
+![Logo](Diagrama.png)
+
+## 10. Prototipaje
+
+## 11. Bibliografía
