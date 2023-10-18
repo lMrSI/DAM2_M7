@@ -2,6 +2,7 @@
 
 ### Anthony Sebastian Palenque Arias
 ### Alejandro Gutierrez
+
 ## Índice
 1.  [Resumen](#1-resumen)
 2.  [Introducción](#2-introducción)
@@ -13,7 +14,7 @@
 8.  [Tareas que realizan los usuarios](#8-tareas-realizadas-por-los-usuarios)
 9.  [Diseño conceptual](#)
 10. [Prototipaje](#)
-11. [Bibliograría](#)
+11. [Bibliografía](#)
 
 ## 1. Resumen
 VersaConnect es una plataforma que ofrece un espacio único para la conexión y el intercambio de intereses. Con apartados distintos para satisfacer las necesidades de interacción y compartir experiencias con otras personas.
@@ -41,13 +42,13 @@ Como desarrolladores y apasionados de las actividades a las que se enfoca nuestr
 
 - Diseño Multiplataforma: Crear una aplicación adaptable a diferentes dispositivos y plataformas, como Android, iOS, macOS, Windows y también una aplicación web.
 - Identidad Visual Atractiva: Desarrollar un logotipo moderno que fortalezca la marca.
-- Usabilidad y Diseño Atractivo: Crear un diseño que sea atractivo y facilite la usabilidad.
+- Usabilidad y Diseño Atractivo: Crear un diseño que sea atractivo y facilita la usabilidad.
 - Experiencia de Usuario Agradable: Garantizar una experiencia de usuario agradable y que la aplicación sea intuitiva y ágil.
 - Integración Web: Enlazar claramente con el sitio web de la aplicación.
 
 #### 3.3 Enfoque y Método Seguido
 
-La estrategia consiste en desarrollar una nueva aplicación que aproveche las mejores características de las aplicaciones existentes en el mercado. 
+La estrategia consiste en desarrollar una nueva aplicación que aproveche las mejores características de las aplicaciones existentes en el mercado.
 
 #### 3.4 Resumen de los Productos Obtenidos
 
@@ -81,7 +82,7 @@ Entusiastas de Deportes y Actividades al Aire Libre: Estos usuarios están inter
 Los contextos de uso varían según el tipo de usuario:
 
 - Los Gamers Aficionados tienden a utilizar la aplicación en su tiempo libre, en sus dispositivos móviles o computadoras personales, principalmente en casa.
-- Los Amantes del Cine y la TV interactúan con la aplicación de manera similar, consultándola en su tiempo libre y compartiendo experiencias de visualización con amigos.
+- Los Amantes del Cine y la TV interactúan con la aplicación de manera similar, consultando en su tiempo libre y compartiendo experiencias de visualización con amigos.
 - Los Entusiastas de Deportes y Actividades al Aire Libre pueden utilizar la aplicación mientras realizan actividades deportivas, en sus dispositivos móviles, y también coordinan encuentros y actividades en la aplicación.
 
 #### 4.3 Análisis de Tareas
@@ -175,7 +176,7 @@ Strava: Una aplicación de seguimiento de actividades físicas que permite a los
 
 5. Compartir Actividades: La función de compartir actividades permite a los usuarios planificar eventos y actividades relacionadas con sus intereses.
 
-6. Diseño Atractivo: La aplicación presenta un diseño atractivo y agradable que fomenta la interacción y la exploración.
+6. Diseño atractivo: La aplicación presenta un diseño atractivo y agradable que fomenta la interacción y la exploración.
 
 7. Nuestro mayor activo radica en ser mucho más que una sola aplicación. VersaConnect es la convergencia de múltiples mundos, un espacio donde se reúnen todas tus pasiones en un solo lugar. Somos una mezcla única de lo mejor de varias aplicaciones, creando una experiencia completa que abarca una amplia variedad de intereses en un solo destino.
 
@@ -237,3 +238,4 @@ Explorar Actividades Virtuales:
 9. Buscar eventos y competiciones en línea.
 Participar en torneos de juegos en línea.
 Organizar visualizaciones virtuales de películas o series con amigos.
+
