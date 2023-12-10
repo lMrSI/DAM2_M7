@@ -7,6 +7,9 @@
     <style name="MiEstiloDeFuente">
         <item name="android:fontFamily">@font/julius_sans_one</item>
     </style>
+    <style name="ledger">
+        <item name="android:fontFamily">@font/ledger</item>
+    </style>
 </resources>
 
 
