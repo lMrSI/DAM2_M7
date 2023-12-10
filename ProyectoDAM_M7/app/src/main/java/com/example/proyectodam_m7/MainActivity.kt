@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Guardados::class.java)
             startActivity(intent)
         }
+        val button3 = findViewById<Button>(R.id.button3)
+        button3.setOnClickListener {
+            val intent = Intent(this, Registro::class.java)
+            startActivity(intent)
+        }
     }
     fun onForosButtonClick(view: View) {
         val intent = Intent(this, ForosActivity::class.java)

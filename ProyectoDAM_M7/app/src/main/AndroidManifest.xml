@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".Guardados" />
         <activity android:name=".ForosActivity"/>
+        <activity android:name=".Registro"/>
 
     </application>
 
