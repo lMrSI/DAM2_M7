@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/menu" android:state_pressed="true" />
+    <item android:drawable="@drawable/menu" />
+    <item android:drawable="@drawable/guardar" android:state_pressed="true"/>
+    <iten android:drawable="@drawable/guardar"/>
+    <item android:drawable="@drawable/plus" android:state_pressed="true"/>
+    <item android:drawable="@drawable/plus"/>
+    <item android:drawable="@drawable/perfil" android:state_pressed="true"/>
+    <item android:drawable="@drawable/perfil"/>
+    <item android:drawable="@drawable/configuracion" android:state_pressed="true"/>
+    <item android:drawable="@drawable/configuracion"/>
+</selector>
