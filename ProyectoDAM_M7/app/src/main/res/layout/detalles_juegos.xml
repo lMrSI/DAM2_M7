@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070224"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <Button
+        android:id="@+id/menu9"
+        android:layout_width="400dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="688dp"
+        android:backgroundTint="#DAE3FB"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="427dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/elden"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/julius"
+        android:text="ELDEN RING"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="548dp"
+        android:src="@drawable/elden_ring"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/k2d"
+        android:text="A la venta en españa 25/2/2222"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="377dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Elden Ring es el nuevo videojuego de FromSoftware. Se trata del nuevo título de acción y rol para un jugador ideado por Hidetaka Miyazaki, que en esta ocasión, estrenará un mundo abierto más grande y ambicioso. Su argumento y mitología están firmados por George R.R. Martin, autor de Canción de hielo y fuego."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:src="@drawable/rec4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="600dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:src="@drawable/rec2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="396dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:src="@drawable/rec"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:src="@drawable/rec1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="497dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:src="@drawable/rec3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="548dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="94dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/k2d_medium"
+        android:text="Guía                      - Historia
+        - Consejos
+      - Armas
+
+
+"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="80dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/k2d_medium"
+        android:text="- Poderes
+                 - Hechizos
+        - Finales
+
+
+
+"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse3"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse4"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView723"
+        android:layout_width="149dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="La historia de elden ring...."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView213"
+        android:layout_width="249dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Todo lo que tienes que saber sobre todos los finales de  elden ring..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Todo lo que tienes que saber sobre todos los tipos de armas que existen en elden ring..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="181dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Consejos básicos de elden ring..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="265dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Todo lo que tienes que saber sobre todos los tipos de hechizos que existen en elden ring..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="PS5"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView722"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="XBOX"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="PC"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView68"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu9"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView68"
+        app:layout_constraintTop_toTopOf="@+id/menu9"
+        app:srcCompat="@drawable/guardar" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView69"
+        app:layout_constraintTop_toTopOf="@+id/menu9"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView70"
+        app:layout_constraintTop_toTopOf="@+id/menu9"
+        app:srcCompat="@drawable/perfil" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView71"
+        app:layout_constraintTop_toTopOf="@+id/menu9"
+        app:srcCompat="@drawable/configuracion" />
+
+    <ImageView
+        android:id="@+id/imageView86"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070224"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/menu7"
+        android:layout_width="400dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="688dp"
+        android:backgroundTint="#DAE3FB"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="427dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/bannermanda"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="292dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/julius"
+        android:text="The Mandalorian"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/iconmanda"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/k2d"
+        android:text="2019-presente"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="377dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Las aventuras de Mando, un pistolero solitario y cazarrecompensas que se abre paso a través de las fronteras más remotas de la galaxia, lejos de la jurisdicción de la Nueva República."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/manda5"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        tools:layout_editor_absoluteY="600dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/manda1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/manda2"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/manda3"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/manda4"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="94dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/k2d_medium"
+        android:text="Historia                      - Historia
+        - Temporadas
+      - Reseñas
+
+
+"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="103dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/k2d_medium"
+        android:text="- Capitulos
+                 - Personajes
+        - Final
+
+
+
+"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse3"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/elipse4"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="272dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="La historia completa de The Mandalorian.."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="249dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Analizando todos los personajes..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Análizando uno a uno todos los capítulos..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="264dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Reseñas de varios medios de The Mandalorian..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        tools:layout_editor_absoluteX="106dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="265dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="Todas las temporadas explicadas..."
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="2022"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        tools:layout_editor_absoluteX="296dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="2021"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="2020"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu7"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView74"
+        app:layout_constraintTop_toTopOf="@+id/menu7"
+        app:srcCompat="@drawable/guardar" />
+
+    <ImageView
+        android:id="@+id/imageView80"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView79"
+        app:layout_constraintTop_toTopOf="@+id/menu7"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView80"
+        app:layout_constraintTop_toTopOf="@+id/menu7"
+        app:srcCompat="@drawable/perfil" />
+
+    <ImageView
+        android:id="@+id/imageView82"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView81"
+        app:layout_constraintTop_toTopOf="@+id/menu7"
+        app:srcCompat="@drawable/configuracion" />
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

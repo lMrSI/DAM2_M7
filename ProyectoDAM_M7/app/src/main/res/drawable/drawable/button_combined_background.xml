@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo redondeado -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3498db" /> <!-- Cambia el color de fondo según tus preferencias -->
+            <corners android:radius="1000dp" /> <!-- Un valor grande para hacer el fondo completamente circular -->
+        </shape>
+    </item>
+
+    <!-- Imagen -->
+    <item android:drawable="@drawable/flecha"/>
+</layer-list>
