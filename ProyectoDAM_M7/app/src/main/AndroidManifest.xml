@@ -21,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Guardados" />
+        <activity android:name=".Inicio" />
         <activity android:name=".ForosActivity"/>
         <activity android:name=".Registro"/>
 

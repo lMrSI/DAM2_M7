@@ -9,14 +9,15 @@
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/Elden"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="427dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/elden"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
