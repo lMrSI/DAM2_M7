@@ -67,7 +67,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        android:onClick="onPeliculasButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView40"
@@ -81,7 +82,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        android:onClick="onSeriesButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView27"
@@ -95,7 +97,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        android:onClick="onAnimeButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView18"

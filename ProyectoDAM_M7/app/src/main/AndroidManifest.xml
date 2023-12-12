@@ -24,6 +24,9 @@
         <activity android:name=".Registro"/>
         <activity android:name=".Inicio" />
         <activity android:name=".Videojuegos" />
+        <activity android:name=".Series" />
+        <activity android:name=".Anime" />
+        <activity android:name=".Peliculas" />
         <!--<activity android:name=".Login" />
         <activity android:name=".ForosActivity"/>
 
