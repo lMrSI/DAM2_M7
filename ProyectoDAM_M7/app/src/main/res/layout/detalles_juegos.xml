@@ -11,14 +11,73 @@
 
 
     <Button
-        android:id="@+id/menu9"
+        android:id="@+id/menu10"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="688dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="7dp"
         android:backgroundTint="#DAE3FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-4dp" />
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-700dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView85"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView60"
+        app:layout_constraintTop_toTopOf="@+id/menu10"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView42"
+        app:srcCompat="@drawable/guardar"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView58"
+        app:layout_constraintTop_toTopOf="@+id/menu10"
+        app:srcCompat="@drawable/perfil" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/menu10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:srcCompat="@drawable/configuracion" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -271,56 +330,6 @@
         android:textSize="11sp"
         tools:layout_editor_absoluteX="341dp"
         tools:layout_editor_absoluteY="334dp" />
-
-    <ImageView
-        android:id="@+id/imageView68"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu9"
-        app:srcCompat="@drawable/menu" />
-
-    <ImageView
-        android:id="@+id/imageView69"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView68"
-        app:layout_constraintTop_toTopOf="@+id/menu9"
-        app:srcCompat="@drawable/guardar" />
-
-    <ImageView
-        android:id="@+id/imageView70"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView69"
-        app:layout_constraintTop_toTopOf="@+id/menu9"
-        app:srcCompat="@drawable/plus" />
-
-    <ImageView
-        android:id="@+id/imageView71"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView70"
-        app:layout_constraintTop_toTopOf="@+id/menu9"
-        app:srcCompat="@drawable/perfil" />
-
-    <ImageView
-        android:id="@+id/imageView72"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView71"
-        app:layout_constraintTop_toTopOf="@+id/menu9"
-        app:srcCompat="@drawable/configuracion" />
 
     <ImageView
         android:id="@+id/imageView86"

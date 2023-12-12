@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#070224"
-    tools:context=".MainActivity" >
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView"
@@ -62,10 +62,11 @@
         android:layout_width="117dp"
         android:layout_height="32dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginEnd="92dp"
         android:backgroundTint="#DAE3FB"
         android:fontFamily="@font/k2d"
         android:text="Aceptar"
+        android:onClick="onInicioButtonClick"
         android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,11 +76,12 @@
         android:id="@+id/button3"
         android:layout_width="117dp"
         android:layout_height="32dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#DAE3FB"
         android:fontFamily="@font/k2d"
-        android:text="Registrarse"
+        android:text="Registro"
+        android:onClick="onRegistroButtonClick"
         android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
