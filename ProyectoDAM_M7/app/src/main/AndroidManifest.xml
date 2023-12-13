@@ -31,6 +31,8 @@
         <activity android:name=".Foros" />
         <activity android:name=".Perfil" />
         <activity android:name=".Salas" />
+        <activity android:name=".DetalleAnime" />
+        <activity android:name=".DetalleVideojuegos"/>
         <!--<activity android:name=".Login" />
         <activity android:name=".ForosActivity"/>
 

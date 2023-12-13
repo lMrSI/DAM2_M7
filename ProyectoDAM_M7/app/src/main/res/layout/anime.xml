@@ -86,6 +86,8 @@
         android:layout_height="179dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onDetalleAnimeClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6"
         app:srcCompat="@drawable/bleach" />
@@ -252,14 +254,14 @@
         android:id="@+id/textView37"
         android:layout_width="158dp"
         android:layout_height="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:background="#1C1351"
         android:fontFamily="@font/k2d_light"
         android:text="                 134"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toEndOf="@+id/imageView26"
         app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
