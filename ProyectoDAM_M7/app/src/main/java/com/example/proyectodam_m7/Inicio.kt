@@ -42,6 +42,13 @@ class Inicio : AppCompatActivity() {
         val intent = Intent(this, Salas::class.java)
         startActivity(intent)
     }
-
+    fun onDetalleAnimeClick(view: View){
+        val intent = Intent(this, DetalleAnime::class.java)
+        startActivity(intent)
+    }
+    fun onDetalleVideojuegoClick(view: View){
+        val intent = Intent(this, DetalleVideojuegos::class.java)
+        startActivity(intent)
+    }
 }
 

@@ -13,7 +13,7 @@
         android:id="@+id/menu3"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="688dp"
+        android:layout_marginTop="708dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
@@ -37,7 +37,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView56"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/perfil" />
+        app:srcCompat="@drawable/configuracion" />
 
     <ImageView
         android:id="@+id/imageView56"
@@ -47,7 +47,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView59"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/configuracion" />
+        app:srcCompat="@drawable/perfil" />
 
     <ImageView
         android:id="@+id/imageView31"

@@ -87,7 +87,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:srcCompat="@drawable/elden_ring" />
+        app:srcCompat="@drawable/elden_ring"
+        android:clickable="true"
+        android:onClick="onDetalleVideojuegoClick" />
 
     <ImageView
         android:id="@+id/imageView29"
