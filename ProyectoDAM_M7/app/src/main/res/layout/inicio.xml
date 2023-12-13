@@ -13,10 +13,11 @@
         android:id="@+id/menu5"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="708dp"
         android:layout_marginEnd="11dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -25,15 +26,9 @@
         android:id="@+id/imageView47"
         android:layout_width="123dp"
         android:layout_height="97dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -63,12 +58,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="372dp"
+        android:onClick="onPeliculasButtonClick"
         android:src="@drawable/g"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18"
-        android:onClick="onPeliculasButtonClick"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <ImageView
         android:id="@+id/imageView40"
@@ -78,12 +73,12 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="140dp"
+        android:onClick="onSeriesButtonClick"
         android:src="@drawable/j"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27"
-        android:onClick="onSeriesButtonClick"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -93,12 +88,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="256dp"
+        android:onClick="onAnimeButtonClick"
         android:src="@drawable/fa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29"
-        android:onClick="onAnimeButtonClick"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -109,13 +104,12 @@
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="488dp"
         android:clickable="true"
+        android:onClick="onVideojuegosButtonClick"
         android:src="@drawable/d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        android:onClick="onVideojuegosButtonClick"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <ImageView
         android:id="@+id/imageView48"
@@ -123,6 +117,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onPerfilsButtonClick"
         app:layout_constraintStart_toEndOf="@+id/imageView50"
         app:layout_constraintTop_toTopOf="@+id/menu5"
         app:srcCompat="@drawable/perfil" />
@@ -133,6 +129,8 @@
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/menu5"
         app:srcCompat="@drawable/menu" />
@@ -141,8 +139,10 @@
         android:id="@+id/imageView50"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="onSalasButtonClick"
         app:layout_constraintStart_toEndOf="@+id/imageView52"
         app:layout_constraintTop_toTopOf="@+id/menu5"
         app:srcCompat="@drawable/plus" />
@@ -151,8 +151,10 @@
         android:id="@+id/imageView51"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onForosButtonClick"
         app:layout_constraintStart_toEndOf="@+id/imageView48"
         app:layout_constraintTop_toTopOf="@+id/menu5"
         app:srcCompat="@drawable/configuracion" />
@@ -163,6 +165,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onSaveButtonClick"
         app:layout_constraintStart_toEndOf="@+id/imageView49"
         app:layout_constraintTop_toTopOf="@+id/menu5"
         app:srcCompat="@drawable/guardar" />

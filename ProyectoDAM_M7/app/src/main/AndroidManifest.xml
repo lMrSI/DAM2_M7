@@ -27,6 +27,10 @@
         <activity android:name=".Series" />
         <activity android:name=".Anime" />
         <activity android:name=".Peliculas" />
+        <activity android:name=".Guardar" />
+        <activity android:name=".Foros" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".Salas" />
         <!--<activity android:name=".Login" />
         <activity android:name=".ForosActivity"/>
 

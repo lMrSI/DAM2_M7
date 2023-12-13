@@ -325,18 +325,21 @@
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="127dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="28dp"
+        android:id="@+id/btnAceptar"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="14dp"
         android:backgroundTint="#DAE3FB"
         android:fontFamily="@font/k2d"
-        android:text="Registrarse"
+        android:onClick="onInicioButtonClick"
+        android:text="Aceptar"
         android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.847"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextTextEmailAddress5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintVertical_bias="1.0"
+        android:clickable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -194,9 +194,10 @@
         android:id="@+id/menu"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="708dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -227,13 +228,16 @@
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="onSalasButtonClick"
         android:background="@drawable/plus"
-        android:onClick="onForosButtonClick"
         app:layout_constraintStart_toEndOf="@+id/guardar"
         app:layout_constraintTop_toTopOf="@+id/menu" />
 
     <ImageButton
         android:id="@+id/perfil"
+        android:clickable="true"
+        android:onClick="onPerfilsButtonClick"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="36dp"
@@ -248,6 +252,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="onForosButtonClick"
         android:background="@drawable/configuracion"
         app:layout_constraintStart_toEndOf="@+id/perfil"
         app:layout_constraintTop_toTopOf="@+id/menu" />
