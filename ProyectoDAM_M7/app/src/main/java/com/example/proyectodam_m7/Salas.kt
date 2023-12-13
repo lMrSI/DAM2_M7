@@ -3,8 +3,9 @@ package com.example.proyectodam_m7
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class Peliculas : AppCompatActivity() {
+class Salas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.peliculas) }
+        setContentView(R.layout.salas)
+    }
 }

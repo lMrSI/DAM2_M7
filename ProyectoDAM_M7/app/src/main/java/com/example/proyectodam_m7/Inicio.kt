@@ -26,6 +26,22 @@ class Inicio : AppCompatActivity() {
         val intent = Intent(this, Anime::class.java)
         startActivity(intent)
     }
+    fun onSaveButtonClick(view: View){
+        val intent = Intent(this, Guardar::class.java)
+        startActivity(intent)
+    }
+    fun onForosButtonClick(view: View){
+        val intent = Intent(this, Foros::class.java)
+        startActivity(intent)
+    }
+    fun onPerfilsButtonClick(view: View){
+        val intent = Intent(this, Perfil::class.java)
+        startActivity(intent)
+    }
+    fun onSalasButtonClick(view: View){
+        val intent = Intent(this, Salas::class.java)
+        startActivity(intent)
+    }
 
 }
 
