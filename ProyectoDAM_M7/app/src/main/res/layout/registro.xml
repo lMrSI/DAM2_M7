@@ -332,7 +332,6 @@
         android:layout_marginBottom="14dp"
         android:backgroundTint="#DAE3FB"
         android:fontFamily="@font/k2d"
-        android:onClick="onInicioButtonClick"
         android:text="Aceptar"
         android:textColor="#000000"
         android:textSize="8sp"
@@ -340,6 +339,7 @@
         app:layout_constraintStart_toEndOf="@+id/editTextTextEmailAddress5"
         app:layout_constraintTop_toBottomOf="@+id/textView31"
         app:layout_constraintVertical_bias="1.0"
-        android:clickable="true"/>
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

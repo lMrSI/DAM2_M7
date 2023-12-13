@@ -27,7 +27,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView53"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/guardar" />
+        app:srcCompat="@drawable/guardar"
+        android:clickable="true"
+        android:onClick="onSaveButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView55"
@@ -37,7 +39,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView56"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/configuracion" />
+        app:srcCompat="@drawable/configuracion"
+        android:clickable="true"
+        android:onClick="onForosButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView56"
@@ -139,7 +143,9 @@ Sebastian Arias Barcelona, Spain
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/menu" />
+        app:srcCompat="@drawable/menu"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView59"
@@ -149,7 +155,9 @@ Sebastian Arias Barcelona, Spain
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toEndOf="@+id/imageView54"
         app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/plus" />
+        app:srcCompat="@drawable/plus"
+        android:clickable="true"
+        android:onClick="onSalasButtonClick"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

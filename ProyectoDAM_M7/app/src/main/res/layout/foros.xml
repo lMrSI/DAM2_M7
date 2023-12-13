@@ -24,7 +24,9 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/guardar"
         app:layout_constraintStart_toEndOf="@+id/btnInicio2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
+        app:layout_constraintTop_toTopOf="@+id/menu2"
+        android:clickable="true"
+        android:onClick="onSaveButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView15"
@@ -43,7 +45,9 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/perfil"
         app:layout_constraintStart_toEndOf="@+id/foros2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
+        app:layout_constraintTop_toTopOf="@+id/menu2"
+        android:clickable="true"
+        android:onClick="onPerfilsButtonClick"/>
 
     <ImageButton
         android:id="@+id/foros2"
@@ -52,9 +56,10 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/plus"
-        android:onClick="onForosButtonClick"
         app:layout_constraintStart_toEndOf="@+id/guardar2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
+        app:layout_constraintTop_toTopOf="@+id/menu2"
+        android:clickable="true"
+        android:onClick="onSalasButtonClick"/>
 
     <ImageButton
         android:id="@+id/configuracion2"
@@ -74,7 +79,9 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/menu"
         app:layout_constraintStart_toStartOf="@+id/menu2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
+        app:layout_constraintTop_toTopOf="@+id/menu2"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"/>
 
     <Button
         android:id="@+id/button"
