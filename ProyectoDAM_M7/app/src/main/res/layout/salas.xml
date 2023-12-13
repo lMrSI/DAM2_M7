@@ -12,7 +12,7 @@
         android:id="@+id/menu6"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="688dp"
+        android:layout_marginTop="708dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
@@ -185,7 +185,9 @@
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/menu6"
-        app:srcCompat="@drawable/menu" />
+        app:srcCompat="@drawable/menu"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView64"
@@ -195,7 +197,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView63"
         app:layout_constraintTop_toTopOf="@+id/menu6"
-        app:srcCompat="@drawable/guardar" />
+        app:srcCompat="@drawable/guardar"
+        android:clickable="true"
+        android:onClick="onSaveButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView65"
@@ -215,7 +219,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView65"
         app:layout_constraintTop_toTopOf="@+id/menu6"
-        app:srcCompat="@drawable/perfil" />
+        app:srcCompat="@drawable/perfil"
+        android:clickable="true"
+        android:onClick="onPerfilsButtonClick"/>
 
     <ImageView
         android:id="@+id/imageView67"
@@ -225,6 +231,8 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/imageView66"
         app:layout_constraintTop_toTopOf="@+id/menu6"
-        app:srcCompat="@drawable/configuracion" />
+        app:srcCompat="@drawable/configuracion"
+        android:clickable="true"
+        android:onClick="onForosButtonClick"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

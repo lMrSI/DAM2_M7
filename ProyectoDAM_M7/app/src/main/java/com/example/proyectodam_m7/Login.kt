@@ -18,7 +18,5 @@ class Login : AppCompatActivity() {
         val intent = Intent(this, Inicio::class.java)
         startActivity(intent)
     }
-
-
 }
 

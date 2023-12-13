@@ -210,7 +210,9 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/menu"
         app:layout_constraintStart_toStartOf="@+id/menu"
-        app:layout_constraintTop_toTopOf="@+id/menu" />
+        app:layout_constraintTop_toTopOf="@+id/menu"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick" />
 
     <ImageButton
         android:id="@+id/guardar"
