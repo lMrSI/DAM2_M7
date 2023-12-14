@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class DetalleVideojuegos : AppCompatActivity(){
+class DetallesPeliculas : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.detalles_juegos_perfectos)
+        setContentView(R.layout.detalles_peliculas_perfectas)
     }
     fun onSalasButtonClick(view: View){
         val intent = Intent(this, Salas::class.java)

@@ -17,7 +17,7 @@
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/k2d_extralight"
-        android:text="Todos los personajes de ataque a los titanes..."
+        android:text="Analizando todos los personajes..."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/menu2"
@@ -51,7 +51,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/k2d_extralight"
-        android:text="Reseñas de varios medios de ataque a los titanes..."
+        android:text="Reseñas de varios medios de The Mandalorian..."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
@@ -86,11 +86,12 @@
         android:layout_marginEnd="21dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/k2d_extralight"
-        android:text="La historia completa de ataque a los titanes..."
+        android:text="La historia completa de The Mandalorian.."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -102,7 +103,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="315dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/imagen5"
+        android:src="@drawable/manda5"
         app:layout_constraintBottom_toTopOf="@+id/menu2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -116,13 +117,13 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/imagen1"
+        android:src="@drawable/manda1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -132,7 +133,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/imagen3"
+        android:src="@drawable/manda3"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,7 +147,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/imagen2"
+        android:src="@drawable/manda2"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -161,7 +162,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/imagen4"
+        android:src="@drawable/manda4"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -221,14 +222,14 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="283dp"
-        android:layout_height="112dp"
+        android:layout_width="294dp"
+        android:layout_height="111dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="453dp"
         android:fontFamily="@font/k2d_extralight"
-        android:text="Shingeki no Kyojin, también conocida en países de habla hispana como Ataque a los titanes, es una serie de manga japonesa escrita e ilustrada por Hajime Isayama."
+        android:text="Las aventuras de Mando, un pistolero solitario y cazarrecompensas que se abre paso a través de las fronteras más remotas de la galaxia, lejos de la jurisdicción de la Nueva República."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -245,12 +246,13 @@
         android:layout_marginStart="30dp"
         android:layout_marginBottom="551dp"
         android:fontFamily="@font/k2d"
-        android:text="2013/2021"
+        android:text="2019-presente"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.169" />
 
     <TextView
         android:id="@+id/textView1"
@@ -261,35 +263,34 @@
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="578dp"
         android:fontFamily="@font/julius"
-        android:text="SHINGEKI NO KYOJIN"
+        android:text="The Mandalorian"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        app:layout_constraintVertical_bias="0.072" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="430dp"
         android:layout_height="118dp"
         android:layout_marginBottom="611dp"
-
-        android:src="@drawable/bannershingeki"
+        android:src="@drawable/bannermanda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView46"
         android:layout_width="78dp"
         android:layout_height="59dp"
-        android:layout_marginEnd="333dp"
-        android:layout_marginBottom="672dp"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -300,7 +301,7 @@
         android:layout_height="120dp"
         android:layout_marginTop="-40dp"
         android:layout_marginBottom="611dp"
-        android:src="@drawable/shingeki"
+        android:src="@drawable/iconmanda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -312,7 +313,7 @@
         android:id="@+id/imageView69"
         android:layout_width="87dp"
         android:layout_height="139dp"
-        android:layout_marginBottom="484dp"
+        android:layout_marginBottom="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -325,10 +326,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/menu"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
         android:clickable="true"
-        android:onClick="onInicioButtonClick"/>
+        android:onClick="onInicioButtonClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu2" />
 
     <ImageButton
         android:id="@+id/guardar2"
@@ -337,10 +338,10 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/guardar"
-        app:layout_constraintStart_toEndOf="@+id/btnInicio2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
         android:clickable="true"
-        android:onClick="onSaveButtonClick"/>
+        android:onClick="onSaveButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/btnInicio2"
+        app:layout_constraintTop_toTopOf="@+id/menu2" />
 
 
     <ImageButton
@@ -350,10 +351,10 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/plus"
-        app:layout_constraintStart_toEndOf="@+id/guardar2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
         android:clickable="true"
-        android:onClick="onSalasButtonClick"/>
+        android:onClick="onSalasButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/guardar2"
+        app:layout_constraintTop_toTopOf="@+id/menu2" />
 
     <ImageButton
         android:id="@+id/perfil2"
@@ -362,10 +363,10 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/perfil"
-        app:layout_constraintStart_toEndOf="@+id/foros2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
         android:clickable="true"
-        android:onClick="onPerfilsButtonClick"/>
+        android:onClick="onPerfilsButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/foros2"
+        app:layout_constraintTop_toTopOf="@+id/menu2" />
 
     <ImageButton
         android:id="@+id/configuracion2"
@@ -374,10 +375,10 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/configuracion"
-        app:layout_constraintStart_toEndOf="@+id/perfil2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
         android:clickable="true"
-        android:onClick="onForosButtonClick"/>
+        android:onClick="onForosButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/perfil2"
+        app:layout_constraintTop_toTopOf="@+id/menu2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
