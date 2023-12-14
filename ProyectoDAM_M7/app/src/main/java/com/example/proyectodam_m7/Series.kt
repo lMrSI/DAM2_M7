@@ -10,6 +10,10 @@ class Series : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.series)
     }
+    fun onDetalleSeries(view: View){
+        val intent = Intent(this, DetallesSeries::class.java)
+        startActivity(intent)
+    }
     fun onSalasButtonClick(view: View){
         val intent = Intent(this, Salas::class.java)
         startActivity(intent)

@@ -33,11 +33,12 @@
         <activity android:name=".Salas" />
         <activity android:name=".DetalleAnime" />
         <activity android:name=".DetalleVideojuegos"/>
-        <!--<activity android:name=".Login" />
+        <activity android:name=".DetallesSeries"/>
+       <!--<activity android:name=".Login" />
         <activity android:name=".ForosActivity"/>
 
         <activity android:name=".Videojuegos"/>-->
-
+        <activity android:name=".DetallesPeliculas"/>
     </application>
 
 </manifest>

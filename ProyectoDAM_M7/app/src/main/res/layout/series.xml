@@ -65,7 +65,6 @@
         app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         app:srcCompat="@drawable/barras" />
-
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
@@ -87,8 +86,8 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:srcCompat="@drawable/breaking_bad" />
-
+        app:srcCompat="@drawable/breaking_bad"
+        android:clickable="true" android:onClick="onDetalleSeries"/>
     <ImageView
         android:id="@+id/imageView29"
         android:layout_width="158dp"

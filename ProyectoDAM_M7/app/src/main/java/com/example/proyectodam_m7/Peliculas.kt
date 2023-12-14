@@ -10,6 +10,10 @@ class Peliculas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.peliculas)
     }
+    fun onDetallesPeliculas(view: View){
+        val intent = Intent(this, DetallesPeliculas::class.java)
+        startActivity(intent)
+    }
     fun onSalasButtonClick(view: View){
         val intent = Intent(this, Salas::class.java)
         startActivity(intent)

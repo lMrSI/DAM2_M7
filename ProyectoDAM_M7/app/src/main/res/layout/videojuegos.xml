@@ -201,11 +201,11 @@
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="onInicioButtonClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/menu"
-        android:clickable="true"
-        android:onClick="onInicioButtonClick"/>
+        app:srcCompat="@drawable/menu" />
 
     <ImageView
         android:id="@+id/imageView39"
