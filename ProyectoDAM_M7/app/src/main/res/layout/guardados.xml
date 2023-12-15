@@ -194,7 +194,7 @@
         android:id="@+id/menu"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="708dp"
+        android:layout_marginTop="684dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
