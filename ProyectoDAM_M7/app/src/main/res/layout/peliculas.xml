@@ -10,7 +10,7 @@
         android:id="@+id/menu4"
         android:layout_width="421dp"
         android:layout_height="126dp"
-        android:layout_marginTop="708dp"
+        android:layout_marginTop="684dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
@@ -87,7 +87,9 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:srcCompat="@drawable/shrek" />
+        app:srcCompat="@drawable/shrek"
+        android:clickable="true"
+        android:onClick="onDetallesPeliculas"/>
 
     <ImageView
         android:id="@+id/imageView29"

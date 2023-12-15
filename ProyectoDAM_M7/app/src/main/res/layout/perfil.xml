@@ -13,7 +13,7 @@
         android:id="@+id/menu3"
         android:layout_width="400dp"
         android:layout_height="126dp"
-        android:layout_marginTop="708dp"
+        android:layout_marginTop="684dp"
         android:backgroundTint="#DAE3FB"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
