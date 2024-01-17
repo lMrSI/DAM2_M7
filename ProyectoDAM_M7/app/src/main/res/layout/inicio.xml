@@ -9,18 +9,6 @@
     tools:context=".Inicio"
     tools:ignore="ExtraText">
 
-    <Button
-        android:id="@+id/menu5"
-        android:layout_width="400dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="708dp"
-        android:layout_marginEnd="11dp"
-        android:backgroundTint="#DAE3FB"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView47"
@@ -111,62 +99,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <ImageView
-        android:id="@+id/imageView48"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:onClick="onPerfilsButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/imageView50"
-        app:layout_constraintTop_toTopOf="@+id/menu5"
-        app:srcCompat="@drawable/perfil" />
 
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bottom"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu5"
-        app:srcCompat="@drawable/menu" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <ImageView
-        android:id="@+id/imageView50"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        android:clickable="true"
-        android:onClick="onSalasButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/imageView52"
-        app:layout_constraintTop_toTopOf="@+id/menu5"
-        app:srcCompat="@drawable/plus" />
-
-    <ImageView
-        android:id="@+id/imageView51"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:onClick="onForosButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/imageView48"
-        app:layout_constraintTop_toTopOf="@+id/menu5"
-        app:srcCompat="@drawable/configuracion" />
-
-    <ImageView
-        android:id="@+id/imageView52"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:onClick="onSaveButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/imageView49"
-        app:layout_constraintTop_toTopOf="@+id/menu5"
-        app:srcCompat="@drawable/guardar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
