@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070224"
+    tools:context="com.example.proyectodam_m7.Inicio"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="123dp"
+        android:layout_height="97dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="226dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/julius"
+        android:scrollbarSize="10dp"
+        android:text="VERCONNECT"
+        android:textColor="#FED7FF"
+        android:textColorHighlight="#AE2899"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/g"
+        app:layout_constraintBottom_toTopOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:onClick="onPeliculasButtonClick"/>
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/j"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:onClick="onSeriesButtonClick"/>
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="228dp"
+        android:src="@drawable/fa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:onClick="onAnimeButtonClick" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/d"
+        app:layout_constraintBottom_toTopOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:onClick="onVideojuegosButtonClick"/>
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="400dp"
+        android:layout_height="126dp"
+        android:backgroundTint="#DAE3FB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnInicio"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/menu"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="@+id/menu"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <ImageButton
+        android:id="@+id/guardar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/guardar"
+        android:clickable="true"
+        android:onClick="onSaveButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/btnInicio"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <ImageButton
+        android:id="@+id/foros"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/plus"
+        android:clickable="true"
+        android:onClick="onSalasButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/guardar"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <ImageButton
+        android:id="@+id/perfil"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/perfil"
+        android:clickable="true"
+        android:onClick="onPerfilsButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/foros"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <ImageButton
+        android:id="@+id/configuracion"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/configuracion"
+        android:clickable="true"
+        android:onClick="onForosButtonClick"
+        app:layout_constraintStart_toEndOf="@+id/perfil"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
