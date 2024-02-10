@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppM7</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_surname"/>
+    <string name="apellido">Apellido</string>
+    <string name="email">Email</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="confirmar">Confirmar Contraseña</string>
+</resources>
