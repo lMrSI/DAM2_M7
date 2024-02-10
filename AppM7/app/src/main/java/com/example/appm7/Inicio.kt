@@ -4,14 +4,71 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.appm7.R
+import com.example.appm7.*
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Inicio : AppCompatActivity() {
+    lateinit var navegation : BottomNavigationView
+    private val mOnNavMenu = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        when(item.itemId){
+            R.id.primerFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, PrimerFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+
+            R.id.segundoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, SegundoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+
+            R.id.tercerFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, TercerFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.cuartoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, CuartoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.quintoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, QuintoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+
+        }
+        false
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.inicio)
-    }
+        navegation = findViewById(R.id.nav_menu)
+        navegation.setOnNavigationItemSelectedListener(mOnNavMenu)
 
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragmentContainer, PrimerFragment())
+            addToBackStack("replacement")
+            commit()
+        }
+    }
     fun onVideojuegosButtonClick(view: View) {
         val intent = Intent(this, Videojuegos::class.java)
         startActivity(intent)
@@ -26,22 +83,6 @@ class Inicio : AppCompatActivity() {
     }
     fun onAnimeButtonClick(view: View) {
         val intent = Intent(this, Anime::class.java)
-        startActivity(intent)
-    }
-    fun onSaveButtonClick(view: View){
-        val intent = Intent(this, Guardar::class.java)
-        startActivity(intent)
-    }
-    fun onForosButtonClick(view: View){
-        val intent = Intent(this, Foros::class.java)
-        startActivity(intent)
-    }
-    fun onPerfilsButtonClick(view: View){
-        val intent = Intent(this, Perfil::class.java)
-        startActivity(intent)
-    }
-    fun onSalasButtonClick(view: View){
-        val intent = Intent(this, Salas::class.java)
         startActivity(intent)
     }
 }

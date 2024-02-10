@@ -9,49 +9,7 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/menu3"
-        android:layout_width="400dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="684dp"
-        android:backgroundTint="#DAE3FB"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-4dp" />
 
-    <ImageView
-        android:id="@+id/imageView54"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView53"
-        app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/guardar"
-        android:clickable="true"
-        android:onClick="onSaveButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView55"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView56"
-        app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/configuracion"
-        android:clickable="true"
-        android:onClick="onForosButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView56"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView59"
-        app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/perfil" />
 
     <ImageView
         android:id="@+id/imageView31"
@@ -135,29 +93,21 @@ Sebastian Arias Barcelona, Spain
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView53"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/menu"
-        android:clickable="true"
-        android:onClick="onInicioButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView59"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView54"
-        app:layout_constraintTop_toTopOf="@+id/menu3"
-        app:srcCompat="@drawable/plus"
-        android:clickable="true"
-        android:onClick="onSalasButtonClick"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_menu"
+                app:menu="@menu/item_menu"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#DAE3FB"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

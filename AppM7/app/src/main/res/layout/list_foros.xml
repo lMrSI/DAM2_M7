@@ -43,5 +43,21 @@
             android:layout_marginEnd="1dp"
             android:layout_marginBottom="1dp"
             android:fontFamily="@font/k2d_bold"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                    android:id="@+id/fragmentContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nav_menu"
+                    app:menu="@menu/item_menu"
+                    android:layout_gravity="bottom"
+                    android:backgroundTint="#DAE3FB"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

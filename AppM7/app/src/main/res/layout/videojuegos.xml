@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     android:background="#070224">
 
-    <Button
-        android:id="@+id/menu4"
-        android:layout_width="421dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="684dp"
-        android:backgroundTint="#DAE3FB"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
-
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="30dp"
@@ -171,66 +161,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView35"
         app:srcCompat="@drawable/lol" />
 
-    <ImageView
-        android:id="@+id/imageView36"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView40"
-        app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/configuracion"
-        android:clickable="true"
-        android:onClick="onForosButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView38"
-        app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/guardar"
-        android:clickable="true"
-        android:onClick="onSaveButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView38"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        android:clickable="true"
-        android:onClick="onInicioButtonClick"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/menu" />
-
-    <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView37"
-        app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/plus"
-        android:clickable="true"
-        android:onClick="onSalasButtonClick"/>
-
-    <ImageView
-        android:id="@+id/imageView40"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView39"
-        app:layout_constraintTop_toTopOf="@+id/menu4"
-        app:srcCompat="@drawable/perfil"
-        android:clickable="true"
-        android:onClick="onPerfilsButtonClick"/>
-
     <TextView
         android:id="@+id/textView35"
         android:layout_width="158dp"
@@ -312,5 +242,20 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="@+id/textView37"
         app:layout_constraintTop_toTopOf="@+id/textView37" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_menu"
+                app:menu="@menu/item_menu"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#DAE3FB"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

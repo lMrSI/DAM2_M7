@@ -168,15 +168,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
-    <Button
-        android:id="@+id/menu2"
-        android:layout_width="421dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="684dp"
-        android:backgroundTint="#DAE3FB"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -321,67 +313,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:srcCompat="@drawable/grafico" />
-
-    <ImageButton
-        android:id="@+id/btnInicio2"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/menu"
-        android:clickable="true"
-        android:onClick="onInicioButtonClick"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
-
-    <ImageButton
-        android:id="@+id/guardar2"
-        android:layout_width="40dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/guardar"
-        android:clickable="true"
-        android:onClick="onSaveButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/btnInicio2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
-
-
-    <ImageButton
-        android:id="@+id/foros2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/plus"
-        android:clickable="true"
-        android:onClick="onSalasButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/guardar2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
-
-    <ImageButton
-        android:id="@+id/perfil2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/perfil"
-        android:clickable="true"
-        android:onClick="onPerfilsButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/foros2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
-
-    <ImageButton
-        android:id="@+id/configuracion2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/configuracion"
-        android:clickable="true"
-        android:onClick="onForosButtonClick"
-        app:layout_constraintStart_toEndOf="@+id/perfil2"
-        app:layout_constraintTop_toTopOf="@+id/menu2" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_menu"
+                app:menu="@menu/item_menu"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#DAE3FB"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
