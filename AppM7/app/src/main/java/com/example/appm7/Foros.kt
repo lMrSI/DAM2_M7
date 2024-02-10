@@ -2,49 +2,71 @@ package com.example.proyectodam_m7
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.appm7.Dato
-import com.example.appm7.R
-import com.example.appm7.RecycleView
+import com.example.appm7.*
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class Foros : AppCompatActivity() {
+    lateinit var navegation : BottomNavigationView
+    private val mOnNavMenu = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        when(item.itemId){
+            R.id.primerFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, PrimerFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+
+            R.id.segundoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, SegundoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+
+            R.id.tercerFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, TercerFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.cuartoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, CuartoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.quintoFragment -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragmentContainer, QuintoFragment())
+                    addToBackStack("replacement")
+                    commit()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
+        }
+        false
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.list_foros)
-        val listaDatos = listOf(
-            Dato("Gaming", "[Spoilers] Overtake! Episode 7 Discussion Looks like everything is starting to crumble around Haruka.  This episodes ending really caught me by surprise."),
-            Dato("Anime", "[Spoilers] Overtake! Episode 7 Discussion Looks like everything is starting to crumble around Haruka.  This episodes ending really caught me by surprise."),
-            Dato("Series", "[Spoilers] Overtake! Episode 7 Discussion Looks like everything is starting to crumble around Haruka.  This episodes ending really caught me by surprise."),
-            Dato("Películas", "[Spoilers] Overtake! Episode 7 Discussion Looks like everything is starting to crumble around Haruka.  This episodes ending really caught me by surprise."),
-            // Agrega más datos según sea necesario
-        )
+        setContentView(R.layout.foros)
 
-        // Inicializar el RecyclerView
-        val recyclerView: RecyclerView = findViewById(R.id.listRecycle)
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        navegation = findViewById(R.id.nav_menu)
+        navegation.setOnNavigationItemSelectedListener(mOnNavMenu)
 
-        // Crear un adaptador para el RecyclerView y configurarlo
-        val adaptador = RecycleView(listaDatos)
-        recyclerView.adapter = adaptador
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragmentContainer, QuintoFragment())
+            addToBackStack("replacement")
+            commit()
+        }
     }
-    /*
-    fun onSalasButtonClick(view: View){
-        val intent = Intent(this, Salas::class.java)
-        startActivity(intent)
-    }
-    fun onInicioButtonClick(view: View) {
-        val intent = Intent(this, Inicio::class.java)
-        startActivity(intent)
-    }
-    fun onSaveButtonClick(view: View){
-        val intent = Intent(this, Guardar::class.java)
-        startActivity(intent)
-    }
-    fun onPerfilsButtonClick(view: View){
-        val intent = Intent(this, Perfil::class.java)
-        startActivity(intent)
-    }
-     */
 }

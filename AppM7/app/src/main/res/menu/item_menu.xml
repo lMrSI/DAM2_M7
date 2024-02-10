@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+            android:id="@+id/primerFragment"
+            android:icon="@drawable/menu"
+            android:title=" "/>
+    <item
+            android:id="@+id/segundoFragment"
+            android:icon="@drawable/guardar"
+            android:title=" "/>
+    <item
+            android:id="@+id/tercerFragment"
+            android:icon="@drawable/plus"
+            android:title=" "/>
+    <item
+            android:id="@+id/cuartoFragment"
+            android:icon="@drawable/perfil"
+            android:title=" "/>
+    <item
+            android:id="@+id/quintoFragment"
+            android:icon="@drawable/configuracion"
+            android:title=" "/>
 
 </menu>

@@ -12,20 +12,4 @@ class Salas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.salas)
     }
-    fun onInicioButtonClick(view: View) {
-        val intent = Intent(this, Inicio::class.java)
-        startActivity(intent)
-    }
-    fun onForosButtonClick(view: View){
-        val intent = Intent(this, Foros::class.java)
-        startActivity(intent)
-    }
-    fun onSaveButtonClick(view: View){
-        val intent = Intent(this, Guardar::class.java)
-        startActivity(intent)
-    }
-    fun onPerfilsButtonClick(view: View){
-        val intent = Intent(this, Perfil::class.java)
-        startActivity(intent)
-    }
 }
