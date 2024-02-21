@@ -34,7 +34,7 @@ class TercerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.salas, container, false)
+        return inflater.inflate(R.layout.list_salas, container, false)
     }
 
     companion object {

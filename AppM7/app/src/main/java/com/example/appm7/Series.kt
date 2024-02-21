@@ -2,7 +2,9 @@ package com.example.proyectodam_m7
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.appm7.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -67,10 +69,17 @@ class Series : AppCompatActivity() {
             replace(R.id.fragmentContainer, SeriesFragment())
             addToBackStack("replacement")
             commit()
+
         }
+
+
     }
     fun onDetalleSeries(view: View){
         val intent = Intent(this, DetallesSeries::class.java)
+        startActivity(intent)
+    }
+    fun toMenu(view: View) {
+        val intent = Intent (this, com.example.proyectodam_m7.Menu::class.java)
         startActivity(intent)
     }
 }

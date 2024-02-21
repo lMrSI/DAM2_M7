@@ -35,6 +35,7 @@ xmlns:tools="http://schemas.android.com/tools">
     <activity android:name="com.example.proyectodam_m7.Guardar"/>
     <activity android:name="com.example.proyectodam_m7.Salas"/>
     <activity android:name="com.example.proyectodam_m7.Series"/>
+    <activity android:name="com.example.proyectodam_m7.Menu"/>
 </application>
 
 </manifest>

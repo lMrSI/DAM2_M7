@@ -52,6 +52,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
+        android:onClick="toMenu"
         app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         app:srcCompat="@drawable/barras" />
