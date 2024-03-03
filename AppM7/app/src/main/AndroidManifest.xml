@@ -36,6 +36,9 @@ xmlns:tools="http://schemas.android.com/tools">
     <activity android:name="com.example.proyectodam_m7.Salas"/>
     <activity android:name="com.example.proyectodam_m7.Series"/>
     <activity android:name="com.example.proyectodam_m7.Menu"/>
-</application>
 
+</application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
