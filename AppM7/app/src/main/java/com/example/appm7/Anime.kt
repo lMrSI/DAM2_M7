@@ -2,8 +2,10 @@ package com.example.proyectodam_m7
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import com.example.appm7.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -74,4 +76,8 @@ class Anime : AppCompatActivity() {
         val intent = Intent(this, DetalleAnime::class.java)
         startActivity(intent)
     }
+fun toMenu(view: View) {
+    val intent = Intent (this, com.example.proyectodam_m7.Menu::class.java)
+    startActivity(intent)
+}
 }

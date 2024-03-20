@@ -74,4 +74,8 @@ class Videojuegos : AppCompatActivity() {
         val intent = Intent(this, DetalleVideojuegos::class.java)
         startActivity(intent)
     }
+    fun toMenu(view: View) {
+        val intent = Intent (this, Menu::class.java)
+        startActivity(intent)
+    }
 }

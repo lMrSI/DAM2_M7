@@ -42,6 +42,10 @@ class Menu : AppCompatActivity() {
                     val intent = Intent(this, Peliculas::class.java)
                     startActivity(intent)
                 }
+                "Videojuegos" -> {
+                    val intent = Intent(this, Videojuegos::class.java)
+                    startActivity(intent)
+                }
                 "Guardados" -> {
                     val intent = Intent(this, Guardar::class.java)
                     startActivity(intent)

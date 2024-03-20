@@ -74,4 +74,8 @@ class Peliculas : AppCompatActivity() {
         val intent = Intent(this, DetallesPeliculas::class.java)
         startActivity(intent)
     }
+    fun toMenu(view: View) {
+        val intent = Intent (this, com.example.proyectodam_m7.Menu::class.java)
+        startActivity(intent)
+    }
 }
