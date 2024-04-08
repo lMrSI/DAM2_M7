@@ -1,17 +1,44 @@
 package com.example.appm7
 
+import org.junit.Assert
 import org.junit.Test
 
-import org.junit.Assert.*
+// Clase CalculatorTest.java
 
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
- */
-class ExampleUnitTest {
+
+class CalculatorTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun testAdd() {
+        val calculator = Calculator()
+        val result: Int = calculator.add(3, 4)
+        Assert.assertEquals(7, result.toLong())
+    }
+
+    @Test
+    fun testSubtract() {
+        val calculator = Calculator()
+        val result: Int = calculator.subtract(7, 4)
+        Assert.assertEquals(3, result.toLong())
+    }
+
+    @Test
+    fun testMultiply() {
+        val calculator = Calculator()
+        val result: Int = calculator.multiply(3, 4)
+        Assert.assertEquals(12, result.toLong())
+    }
+
+    @Test
+    fun testDivide() {
+        val calculator = Calculator()
+        val result: Int = calculator.divide(8, 4)
+        Assert.assertEquals(2, result.toLong())
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun testDivideByZero() {
+        val calculator = Calculator()
+        calculator.divide(8, 0)
     }
 }
+
