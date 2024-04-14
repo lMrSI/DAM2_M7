@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.appm7.InformeActividad
 import com.example.appm7.R
 
 class Login : AppCompatActivity() {
@@ -39,6 +40,10 @@ class Login : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Correo electrónico o contraseña incorrectos", Toast.LENGTH_SHORT).show()
         }
+    }
+    fun onGenerarInforme(view: View){
+        val intent = Intent(this, InformeActividad::class.java)
+        startActivity(intent)
     }
 
     private fun validarCredenciales(email: String, password: String): Boolean {

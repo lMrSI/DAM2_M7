@@ -5,8 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#070224"
-    tools:context=".MainActivity">
+    android:background="#070224">
 
 
 
@@ -95,11 +94,12 @@ Sebastian Arias Barcelona, Spain
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" android:id="@+id/coordinatorLayout">
         <FrameLayout
                 android:id="@+id/fragmentContainer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent">
+        </FrameLayout>
         <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,6 +108,4 @@ Sebastian Arias Barcelona, Spain
                 android:layout_gravity="bottom"
                 android:backgroundTint="#DAE3FB"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

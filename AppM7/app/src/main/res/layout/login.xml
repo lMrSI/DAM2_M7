@@ -114,4 +114,18 @@
         app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <Button
+            android:id="@+id/informe"
+            android:text="Informe"
+            android:layout_width="272dp"
+            android:layout_height="44dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:backgroundTint="#DAE3FB"
+            android:fontFamily="@font/k2d"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            app:layout_constraintHorizontal_bias="0.517"
+            android:onClick="onGenerarInforme"
+            app:layout_constraintVertical_bias="0.021" app:layout_constraintTop_toBottomOf="@+id/button4"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
