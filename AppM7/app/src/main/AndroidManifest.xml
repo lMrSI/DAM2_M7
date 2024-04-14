@@ -21,6 +21,7 @@ xmlns:tools="http://schemas.android.com/tools">
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+    <activity android:name=".InformeActividad"/>
     <activity android:name="com.example.proyectodam_m7.Foros"/>
     <activity android:name="com.example.proyectodam_m7.Registro"/>
     <activity android:name="com.example.proyectodam_m7.Inicio"/>
@@ -37,7 +38,9 @@ xmlns:tools="http://schemas.android.com/tools">
     <activity android:name="com.example.proyectodam_m7.Series"/>
     <activity android:name="com.example.proyectodam_m7.Menu"/>
 
+
 </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
