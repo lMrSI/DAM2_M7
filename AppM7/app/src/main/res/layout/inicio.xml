@@ -8,15 +8,14 @@
     android:background="#070224"
     tools:context="com.example.proyectodam_m7.Inicio"
     tools:ignore="ExtraText">
-
     <ImageView
-        android:id="@+id/imageView47"
-        android:layout_width="123dp"
-        android:layout_height="97dp"
-        android:src="@drawable/logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+            android:id="@+id/imageView47"
+            android:layout_width="123dp"
+            android:layout_height="97dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
@@ -35,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"/>
 
     <ImageView
         android:id="@+id/imageView29"
@@ -95,7 +94,8 @@
         <FrameLayout
                 android:id="@+id/fragmentContainer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent">
+        </FrameLayout>
         <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
