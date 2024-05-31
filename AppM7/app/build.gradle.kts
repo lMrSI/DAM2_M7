@@ -1,14 +1,11 @@
 import com.android.tools.r8.internal.im
-
-
-
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
+
     namespace = "com.example.appm7"
     compileSdk = 34
 
@@ -21,7 +18,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -38,6 +34,14 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    signingConfigs {
+        create("Anthony") {
+            keyAlias = "anthony"
+            keyPassword = "anthony"
+            storeFile = file("C:/Users/Sebastian/Documents/DAM/M7/Verconnect/DAM2_M7/AppM7/my-release-key.jks")
+            storePassword = "anthony"
+        }
+    }
 }
 
 dependencies {
@@ -52,4 +56,5 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation ("com.google.code.gson:gson:2.8.6")
 }
